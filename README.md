@@ -176,7 +176,7 @@ truth) and mirrored in the UI so users don't see actions they can't perform.
   `docker-compose.yml`)
 - ✅ Unit tests (circular-reporting logic) and an integration test suite
   (Jest + Supertest + mongodb-memory-server) covering auth and RBAC
-- ⬜ Live deployment — left as a follow-up; see "Deploying" below
+- ✅ Live deployment (Netlify + Render + MongoDB Atlas — see Live Demo above)
 
 ## 10. Running tests
 
