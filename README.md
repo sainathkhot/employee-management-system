@@ -33,6 +33,27 @@ ems/
 │       └── types/         Shared TypeScript interfaces
 └── docker-compose.yml   Orchestrates MongoDB + backend + frontend
 ```
+## Live Demo
+
+- **Frontend (Netlify):** https://ems-sainath.netlify.app
+- **Backend API (Render):** https://ems-backend-agtu.onrender.com/api
+- **Note:** the backend is on Render's free tier, which spins down after 15 min of inactivity. The first request after idle may take 30–60 seconds to wake up — this is expected, not a bug.
+
+### Demo accounts
+| Role | Email | Password |
+|------|-------|----------|
+| Super Admin | admin@ems.com | Admin@12345 |
+| HR Manager | hr@ems.com | Hr@123456 |
+| Employee | karan@ems.com | Employee@123 |
+
+## Screenshots
+
+| | |
+|---|---|
+| **Login** ![Login](screenshots/01-login.png) | **Dashboard** ![Dashboard](screenshots/02-dashboard.png) |
+| **Employees** ![Employees](screenshots/03-employees.png) | **Add Employee** ![Add Employee](screenshots/04-add-employee.png) |
+| **Employee Detail** ![Detail](screenshots/05-employee-detail.png) | **Org Chart** ![Org Chart](screenshots/06-org-chart.png) |
+| **Employee View** ![Employee View](screenshots/07-employee-view.png) | **Dark Mode** ![Dark Mode](screenshots/08-dark-mode.png) |
 
 ## 2. Quick start (Docker — recommended)
 
